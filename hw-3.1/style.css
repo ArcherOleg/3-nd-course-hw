@@ -1,0 +1,93 @@
+@font-face {
+  font-family: StratosSkyeng;
+  src: url(./fonts/statosskyeng-v1.001/Web_fonts/stratosskyengweb-regular.woff);
+  src: url(./fonts/statosskyeng-v1.001/Web_fonts/stratosskyengweb-regular.woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #004980;
+  font-family: StratosSkyeng;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  padding-top: 158px;
+}
+.box_text {
+  width: 208px;
+  color: #004980;
+  font-family: StratosSkyeng;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 16px;
+}
+.box_game {
+  background-color: #c2f5ff;
+  width: 480px;
+  height: 459px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box_game_selection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box_level_selection {
+  display: flex;
+  gap: 26px;
+}
+.box_level_selection input[type=radio] {
+  display: none;
+}
+.box_level_selection label {
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  font-family: StratosSkyeng;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 92px;
+  color: #0080C1;
+}
+.box_level_selection input[type=radio]:checked + label {
+  background-color: #0080C1;
+  color: #FFFFFF;
+}
+.box_level_selection label:hover {
+  background-color: #0080C1;
+  color: #FFFFFF;
+}
+
+.button_start {
+  background-color: #7AC100;
+  color: #FFFFFF;
+  border-radius: 12px;
+  border: none;
+  width: 246px;
+  height: 50px;
+  font-family: StratosSkyeng;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
