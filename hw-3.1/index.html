@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="box">
+<div id="app" class="box">
     <div class="box_game">
         <h1 class="box_text">Выбери сложность</h1>
         <div class="box_game_selection">
             <div class="box_level_selection">
-                <input type="radio" value="1" id="game-1" name="games" checked>
+                <input class="box_level" data-index="1" type="radio" value="1" id="game-1" name="games" checked>
                 <label for="game-1">1</label>
 
-                <input type="radio" value="2" id="game-2" name="games" checked>
+                <input class="box_level" data-index="2" type="radio" value="2" id="game-2" name="games" checked>
                 <label for="game-2">2</label>
 
-                <input type="radio" value="3" id="game-3" name="games" checked>
+                <input class="box_level" data-index="3" type="radio" value="3" id="game-3" name="games" checked>
                 <label for="game-3">3</label>
             </div>
         </div>
@@ -28,4 +28,5 @@
 
  
 </body>
+<script type="module" src="./components/index.js"></script>
 </html>
